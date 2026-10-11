@@ -29,7 +29,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run tests
-        run: pytest -v --junitxml=pytest-report.xml
+        run: python -m pytest -v --junitxml=pytest-report.xml
 
       - name: Run live demo API check
         run: python -m src.api_client --post-id 1 --report integration-report.json
