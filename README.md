@@ -1,3 +1,5 @@
+[![API Integration Tests](https://github.com/pheonixonfire248/python-api-integration-monitor/actions/workflows/api-tests.yml/badge.svg?branch=main)](https://github.com/pheonixonfire248/python-api-integration-monitor/actions/workflows/api-tests.yml)
+
 # Python REST API Integration & Reliability Monitor
 
 A hands-on project demonstrating how a client integrates with a REST API, validates returned data, handles failures, and tests the integration automatically with GitHub Actions.
